@@ -10,7 +10,7 @@ while (count > 0) {
     if(count > 0) {
         document.write(count + " " + word + " of beer on the wall <br>");
     } else {
-        document.write("No more " + word + " of beer on the wall.");
+        document.write("No more " + word + " of beer on the wall.<br><br>");
     }
 };
 
@@ -30,3 +30,15 @@ while (count > 0) {
 //     }
 // };
 
+// Happy Birthday Song!
+
+var name = 'Vance';
+var i = 0;
+
+while (i < 2) {
+    document.write("Happy Birthday to you. <br>");
+    i = i + 1;
+};
+
+document.write("Happy Birthday dear " + name + " ,<br>");
+document.write("Happy Birthday to you. <br>");
